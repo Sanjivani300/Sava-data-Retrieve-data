@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920133151612",
+    "project_id": "save-data-4c836",
+    "storage_bucket": "save-data-4c836.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920133151612:android:4dde5e842769acffba52f9",
+        "android_client_info": {
+          "package_name": "eu.tutrial.save_data"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920133151612-4dun3mfi77ajrjkkkaavl1vjq0qoku04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU7x3QxLQx5cDPrkCPTnZwIqDUvRLc01w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920133151612-4dun3mfi77ajrjkkkaavl1vjq0qoku04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

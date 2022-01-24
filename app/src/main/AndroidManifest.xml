@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.tutrial.save_data">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Save_data">
+        <!-- <activity android:name=".MainActivity" android:exported="true"> -->     <!-- 1.for insert data,from mobile to firebase-->
+        <activity android:name=".ReadData" android:exported="true">                  <!-- 2.for retrieve data,from firebase to mobile-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"> </activity>   <!--if ur running 1. then delete this line-->
+    </application>
+
+</manifest>
